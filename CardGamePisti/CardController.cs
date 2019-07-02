@@ -18,7 +18,7 @@ namespace CardGamePisti
             {
                 if (i == 0)
                 {
-                    for (int j = 0; j < 13; j++)
+                    for (int j = 1; j <= 13; j++)
                     {
                         card.Value = j;
                         card.cardTypes = Enums.CardTypes.Clubs;
@@ -27,7 +27,7 @@ namespace CardGamePisti
                 }
                 else if (i == 1)
                 {
-                    for (int j = 0; j < 13; j++)
+                    for (int j = 1; j <= 13; j++)
                     {
                         card.Value = j;
                         card.cardTypes = Enums.CardTypes.Diamonds;
@@ -36,7 +36,7 @@ namespace CardGamePisti
                 }
                 else if (i == 2)
                 {
-                    for (int j = 0; j < 13; j++)
+                    for (int j = 1; j <= 13; j++)
                     {
                         card.Value = j;
                         card.cardTypes = Enums.CardTypes.Hearts;
@@ -45,7 +45,7 @@ namespace CardGamePisti
                 }
                 else if (i == 3)
                 {
-                    for (int j = 0; j < 13; j++)
+                    for (int j = 1; j <= 13; j++)
                     {
                         card.Value = j;
                         card.cardTypes = Enums.CardTypes.Spades;
