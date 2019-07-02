@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CardGamePisti.Enums
 {
-    enum CardTypes
+    public enum CardTypes
     {
         Clubs = 0,
         Hearts = 1,

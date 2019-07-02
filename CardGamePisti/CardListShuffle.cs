@@ -2,10 +2,11 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace CardGamePisti
 {
-    internal class CardListShuffle
+    public class CardListShuffle
     {
         private static Random rng = new Random();
 

@@ -5,10 +5,10 @@ using System.Text;
 
 namespace CardGamePisti.Entities
 {
-    class Card
+    public class Card
     {
         public int Value { get; set; }
-        public CardTypes cardTypes { get; set; }
+        public CardTypes CardTypes { get; set; }
         public string ImagePath { get; set; }
     }
 }

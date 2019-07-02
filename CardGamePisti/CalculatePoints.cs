@@ -54,12 +54,12 @@ namespace CardGamePisti
                         TotalPoint++;
                         break;
                     default:
-                        if(cardList[i].Value == 2 && cardList[i].cardTypes.Equals(CardTypes.Clubs))
+                        if(cardList[i].Value == 2 && cardList[i].CardTypes.Equals(CardTypes.Clubs))
                         {
                             TotalPoint = TotalPoint + 2;
                             break;
                         }
-                        else if(cardList[i].Value == 10 && cardList[i].cardTypes.Equals(CardTypes.Diamonds))
+                        else if(cardList[i].Value == 10 && cardList[i].CardTypes.Equals(CardTypes.Diamonds))
                         {
                             TotalPoint = TotalPoint + 3;
                             break;

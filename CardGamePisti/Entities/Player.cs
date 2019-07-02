@@ -4,10 +4,10 @@ using System.Text;
 
 namespace CardGamePisti.Entities
 {
-    class Player
+    public class Player
     {
-        int PlayerNumber { get; set; }
-        List<Card> cardsInHand { get; set; }
-        List<Card> collectedCards { get; set; }
+        public int PlayerNumber { get; set; }
+        public List<Card> CardsInHand { get; set; }
+        public List<Card> CollectedCards { get; set; }
     }
 }

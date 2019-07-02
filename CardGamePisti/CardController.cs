@@ -21,7 +21,7 @@ namespace CardGamePisti
                     for (int j = 1; j <= 13; j++)
                     {
                         card.Value = j;
-                        card.cardTypes = Enums.CardTypes.Clubs;
+                        card.CardTypes = Enums.CardTypes.Clubs;
                         cardList.Add(card);
                     }
                 }
@@ -30,7 +30,7 @@ namespace CardGamePisti
                     for (int j = 1; j <= 13; j++)
                     {
                         card.Value = j;
-                        card.cardTypes = Enums.CardTypes.Diamonds;
+                        card.CardTypes = Enums.CardTypes.Diamonds;
                         cardList.Add(card);
                     }
                 }
@@ -39,7 +39,7 @@ namespace CardGamePisti
                     for (int j = 1; j <= 13; j++)
                     {
                         card.Value = j;
-                        card.cardTypes = Enums.CardTypes.Hearts;
+                        card.CardTypes = Enums.CardTypes.Hearts;
                         cardList.Add(card);
                     }
                 }
@@ -48,7 +48,7 @@ namespace CardGamePisti
                     for (int j = 1; j <= 13; j++)
                     {
                         card.Value = j;
-                        card.cardTypes = Enums.CardTypes.Spades;
+                        card.CardTypes = Enums.CardTypes.Spades;
                         cardList.Add(card);
                     }
                 }
