@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CardGamePisti
 {
-    class CardController
+    public class CardController
     {
         private List<Card> playingDeck = new List<Card>();
 

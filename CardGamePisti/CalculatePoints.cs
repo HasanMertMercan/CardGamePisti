@@ -6,7 +6,7 @@ using CardGamePisti.Enums;
 
 namespace CardGamePisti
 {
-    class CalculatePoints
+    public class CalculatePoints
     {
         private int[] result = new int[2];
         public CalculatePoints(List<Card> cardListPlayer1, List<Card> cardListPlayer2)

@@ -5,9 +5,9 @@ using System.Text;
 
 namespace CardGamePisti
 {
-    class DistributeCards
+    public class DistributeCards
     {
-        public DistributeCards(List<Card> cardList)
+        public DistributeCards(List<Card> CardList)
         {
 
         }
