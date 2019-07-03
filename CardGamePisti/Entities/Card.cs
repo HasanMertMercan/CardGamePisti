@@ -9,6 +9,7 @@ namespace CardGamePisti.Entities
     {
         public int Value { get; set; }
         public CardTypes CardTypes { get; set; }
+        //future plan
         public string ImagePath { get; set; }
     }
 }
