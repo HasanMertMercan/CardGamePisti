@@ -9,9 +9,18 @@ namespace CardGamePisti
     public class CalculatePoints
     {
         private int[] result = new int[2];
-        public CalculatePoints(List<Card> cardListPlayer1, List<Card> cardListPlayer2)
+        public CalculatePoints(List<Card> cardListPlayer1, List<Card> cardListPlayer2, int PistiCounterFirst, int PistiCounterSecond)
         {
             result = CalculateBiggerDeck(cardListPlayer1, cardListPlayer2);
+            CalculatePistiPoints(PistiCounterFirst, PistiCounterSecond, result);
+        }
+
+        private void CalculatePistiPoints(int PistiCounterFirst, int PistiCounterSecond, int[] TotalResult)
+        {
+            int PointsFirst = PistiCounterFirst * 10;
+            int PointsSecond = PistiCounterSecond * 10;
+            TotalResult[0] = TotalResult[0] + PointsFirst;
+            TotalResult[1] = TotalResult[1] + PointsSecond;
         }
 
         private int[] CalculateBiggerDeck(List<Card> cardListPlayer1, List<Card> cardListPlayer2)
@@ -71,6 +80,11 @@ namespace CardGamePisti
                 }
             }
             return TotalPoint;
+        }
+
+        public int[] GetResults()
+        {
+            return result;
         }
 
     }

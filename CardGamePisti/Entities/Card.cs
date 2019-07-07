@@ -11,5 +11,10 @@ namespace CardGamePisti.Entities
         public CardTypes CardTypes { get; set; }
         //future plan
         public string ImagePath { get; set; }
+
+        public override string ToString()
+        {
+            return string.Concat(CardTypes.ToString(), "-", Value);
+        }
     }
 }
