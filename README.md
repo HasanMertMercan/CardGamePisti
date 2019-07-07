@@ -1,0 +1,2 @@
+# CardGamePisti
+Turkish card game
